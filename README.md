@@ -6,6 +6,10 @@ This work introduces the Dataset for Aligning Reasons (DFAR), a modified version
 
 [The DFAR dataset is available here](<https://github.com/apurba-nsu-rnd-lab/DFAR/tree/main/DFAR%20dataset>)
 
+**Train-test split**: The DFAR dataset is divided into two subsets: a training set and a test set, with a split ratio of 90% to 10%. Consequently, the training set consists of 4,500 data points, while the test set comprises 500 data points.
+
+***NOTE***: *Label consists of two distinct values: 0 and 1, where 0 represents ethical and 1 represents unethical.*
+
 ### DFAR Dataset Statistics and Demographic Profile of Dataset Annotators
 
 <table>
@@ -180,12 +184,6 @@ This work introduces the Dataset for Aligning Reasons (DFAR), a modified version
   <li>The <strong>non-generative models</strong> were fine-tuned on both DFAR and ETHOS datasets and evaluated within these datasets.</li>
   <li>The <strong>generative models</strong> were fine-tuned solely on the DFAR dataset and evaluated within the dataset (DFAR) as well as on cross-dataset (ETHOS). They could not be fine-tuned on ETHOS due to the absence of reasoning in the dataset.</li>
 </ol>
-
-<hr>
-
-**Figure**: t-SNE visualization of two fine-tuned versions (a) Fine-tuned using Labels (L) and (b) Fine-tuned using Labels \& Reasons (L+R) of Llama-2 (7B) on the DFAR test split.
-![Screenshot from 2024-08-17 23-37-58](https://github.com/user-attachments/assets/06fdfafc-88ee-43a2-8644-50812cce4800)
-
 
 <br>
 
