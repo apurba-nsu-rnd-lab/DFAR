@@ -74,7 +74,7 @@ This work introduces the Dataset for Aligning Reasons (DFAR), a modified version
 
 ## Results
 
-<h2>Comparison of Evaluation Results on DFAR and ETHOS</h2>
+<h3>Comparison of Evaluation Results on DFAR and ETHOS</h3>
 
 <p><strong>Note</strong>: ↑ (higher is better), ↓ (lower is better). `-` denotes results that are not applicable.</p>
 
