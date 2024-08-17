@@ -75,6 +75,7 @@ This work introduces the Dataset for Aligning Reasons (DFAR), a modified version
 
 
 **Figure**: (a) Fine-tuning using labels only and (b) Fine-tuning using both labels & reasons on the DFAR dataset. The first approach involves training the model on the ethical-unethical labels without incorporating the accompanying reasons. LLM L produces $\hat{y_i}$ based on the input $x_i$ that passes through the embedding layer. LLM's weights are being updated based on the loss. In our novel approach, LLM (L) generates $\hat{y_i}$ and $\hat{r_i}$ based on the input $x_i$. LLM is fine-tuned based on the loss ($\mathcal{L}$) between embeddings of $\hat{y_i}$, $\hat{r_i}$, and $y_i$, $r_i$ of the dataset.
+
 ![Screenshot from 2024-08-17 22-58-50](https://github.com/user-attachments/assets/e6977713-3a4f-4c6d-b391-56800725c469)
 
 
