@@ -187,5 +187,20 @@ This work introduces the Dataset for Aligning Reasons (DFAR), a modified version
 ![Screenshot from 2024-08-17 23-37-58](https://github.com/user-attachments/assets/06fdfafc-88ee-43a2-8644-50812cce4800)
 
 
+<br>
+
+## Installation
+
+```python
+pip install torch -qU
+pip install transformers -qU
+pip install trl -qU
+pip install accelerate -qU
+pip install bitsandbytes -qU
+pip install peft -qU
+pip install datasets -qU
+```
+<br>
+
 ## References
 [^1]: Hendrycks, D., Burns, C., Basart, S., Critch, A.C., Li, J.L., Song, D., Steinhardt, J.: Aligning ai with shared human values. In: International Conference on Learning Representations (2021) [URL](https://openreview.net/forum?id=dNy_RKzJacY)
