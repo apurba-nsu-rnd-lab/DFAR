@@ -1,5 +1,12 @@
-# Beyond Labels: Aligning Large Language Models with Human-like Reasoning
-This is the repository for "Beyond Labels: Aligning Large Language Models with Human-like Reasoning" by Muhammad Rafsan Kabir, Rafeed Mohammad Sultan, Ihsanul Haque Asif, Jawad Ibn Ahad, Fuad Rahman, Mohammad Ruhul Amin, Nabeel Mohammed, and Shafin Rahman, accepted to be presented at ICPR 2024.
+<h1 align="center">
+Beyond Labels: Aligning Large Language Models with <br>Human-like Reasoning
+</h1>
+
+<p align="center">
+  <strong>Official implementation of the paper [ICPR 2024]</strong>
+</p>
+
+<br>
 
 ## DFAR: Dataset for Aligning Reasons
 This work introduces the Dataset for Aligning Reasons (DFAR), a modified version of the ETHICS dataset by Hendrycks et al[^1]. DFAR consists of ethical statements, their corresponding labels, and reasons explaining the ethical judgments.
@@ -8,7 +15,8 @@ This work introduces the Dataset for Aligning Reasons (DFAR), a modified version
 
 **Train-test split**: The DFAR dataset is divided into two subsets: a training set and a test set, with a split ratio of 90% to 10%. Consequently, the training set consists of 4,500 data points, while the test set comprises 500 data points.
 
-***NOTE***: *Label consists of two distinct values: 0 and 1, where 0 represents ethical and 1 represents unethical.*
+***NOTE***: *Label consists of two distinct values: 0 and 1, where 0 represents ethical, and 1 represents unethical.*
+
 
 ### DFAR Dataset Statistics and Demographic Profile of Dataset Annotators
 
