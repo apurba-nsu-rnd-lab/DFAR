@@ -1,5 +1,5 @@
 <h1 align="center">
-Beyond Labels: Aligning Large Language Models with <br>Human-like Reasoning
+Beyond Labels: Aligning Large Language Models with Human-like Reasoning
 </h1>
 
 <p align="center">
