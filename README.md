@@ -207,7 +207,20 @@ pip install bitsandbytes -qU
 pip install peft -qU
 pip install datasets -qU
 ```
-<br>
+<be>
+
+## Citation
+
+If you wish to cite this work, feel free to use this [BibTeX](http://www.bibtex.org/) reference:
+
+```bibtex
+@article{kabir2024beyond,
+  title={Beyond Labels: Aligning Large Language Models with Human-like Reasoning},
+  author={Kabir, Muhammad Rafsan and Sultan, Rafeed Mohammad and Asif, Ihsanul Haque and Ahad, Jawad Ibn and Rahman, Fuad and Amin, Mohammad Ruhul and Mohammed, Nabeel and Rahman, Shafin},
+  journal={arXiv preprint arXiv:2408.11879},
+  year={2024}
+}
+```
 
 ## References
 [^1]: Hendrycks, D., Burns, C., Basart, S., Critch, A.C., Li, J.L., Song, D., Steinhardt, J.: Aligning ai with shared human values. In: International Conference on Learning Representations (2021) [URL](https://openreview.net/forum?id=dNy_RKzJacY)
